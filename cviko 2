@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	
+	long int a = 14783647;
+	double b = 4.5e-20;
+	double c = 4.500010000e-20;
+	double d = c-b;
+	
+	bool e = c >= b;
+	
+	char f[4] = {'a','h','o','j'};
+	double x[3] = {1.5, 2.0, 1.5};
+	
+	cout << "Ahoj " << endl << d << endl << x[3] << endl;
+	
+	return 0;
+}
